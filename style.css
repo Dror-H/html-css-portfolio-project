@@ -254,3 +254,42 @@ section {
 }
 
 /* About Section */
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.about-details-container {
+  justify-content: center;
+  flex-direction: row;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* 
+.about-containers,
+.about-details-container {
+  display: flex;
+} */
+
+.about-pic {
+  border-radius: 7rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
